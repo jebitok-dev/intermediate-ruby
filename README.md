@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby Intermediate
+# Ruby Intermediate: Object Oriented Programming(OOP)
 
-> For implementing milestones(1-4)
+> For implementing Ob milestones(1-4).
+> Ruby is an OOP language and nearly everything in Ruby is an object. This project aims to implement the Tic-Tac-Toe game using classes, methods, scoping, variables and other ruby components like hashes, arrays and data types etc.
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
