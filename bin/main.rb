@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# rubocop:disable Metrics/LineLength
+# rubocop:disable Metrics/ModuleLength
 
 puts 'Welcome to the Tic Tac Toe game!'
 # create Players class initialized with name and symbol
@@ -44,4 +44,4 @@ play_again = gets.chomp
 puts play_again
 # "The game starts again and repeats same steps if players selects #{play_again} or ends here!""
 
-# rubocop:enable Metrics/LineLength
+# rubocop:enable Metrics/ModuleLength
