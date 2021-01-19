@@ -36,9 +36,10 @@ puts "It is your turn #{player2}, Enter your move: "
 puts "I will mark user's picked move and display updated board"
 if Winner?
   puts 'Game is over! Player (either player1 or player2) is the winner!'
+else
+  puts 'Game is over! The game is a draw!'
 end
 # or it will output
-puts 'Game is over! The game is a draw!' if Draw?
 # Continue the loop until one player wins or the game ends with a draw
 # Winner is declared or a Draw is declared
 # game_on = false
