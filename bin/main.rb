@@ -9,6 +9,7 @@ gameview = Board.new
 # playerinfo = Players.new
 validation = Validate.new
 puts 'Welcome to the Tic Tac Toe game!'
+player1 = player_1.details
 def player_move(name, _players, validation, board)
   puts gameview.display_board
   puts "player #{name}, it's your turn!"
