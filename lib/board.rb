@@ -26,7 +26,7 @@ class Board
         @board[move.to_i - 1] = value
     end
 
-    def winner
+    def winner?
         @possible_wins.each do |x|
             one = x[0]
             two = x[1]
@@ -43,9 +43,3 @@ class Board
         true
     end
 end
-
-
-
-
-
-

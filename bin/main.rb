@@ -1,15 +1,14 @@
 # !/usr/bin/env ruby
 # rubocop:disable Metrics/LineLength
+# require 'colorise'
 
 require_relative '../lib/player'
 require_relative '../lib/board'
 require_relative '../lib/validation'
 
 gameview = Board.new
-# playerinfo = Players.new
 validation = Validate.new
 puts 'Welcome to the Tic Tac Toe game!'
-# player1 = player_1.details
 def player_move(player_name, validation, board)
   puts board.display_board
   puts "player #{player_name}, it's your turn!"
