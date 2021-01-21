@@ -11,3 +11,6 @@ class Players
        puts "Enter your #{@name}" 
     end
 end
+
+player_1 = Players.new("player1", "x")
+player_2 = Players.new("player2", "o")
