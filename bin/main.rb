@@ -1,8 +1,5 @@
 # !/usr/bin/env ruby
-# rubocop:disable Metrics/LineLength
-# require 'colorise'
 
-require_relative '../lib/player'
 require_relative '../lib/board'
 require_relative '../lib/validation'
 
@@ -33,5 +30,3 @@ until gameview.draw?
   player_move('O', validation, gameview)
   return puts 'player O has won' if gameview.winner?
 end
-
-# rubocop:enable Metrics/LineLength
