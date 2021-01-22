@@ -1,5 +1,7 @@
 # !/usr/bin/env ruby
 
+# rubocop:disable Layout/EmptyLineAfterGuardClause
+
 require 'colorize'
 
 require_relative '../lib/board'
@@ -34,3 +36,5 @@ until gameview.draw?
   puts 'player O has won'
   break if gameview.winner?
 end
+
+# rubocop:enable Layout/EmptyLineAfterGuardClause
