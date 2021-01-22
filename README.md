@@ -5,7 +5,11 @@
 > For implementing OOP milestones(1-4).
 > Ruby is an OOP language and nearly everything in Ruby is an object. This project aims to implement the Tic-Tac-Toe game using OOP methods like classes, inheritance, scope, variables, attr_readers & attr_writers as well as the DRY principle and other ruby components like hashes, arrays and data types etc.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+## ABOUT THE GAME
+
+The **TIC-TAC-TOE** game: is a 3 x 3 grid game that takes two player assigned symbol X and O. The players take turns playing by choosing any number between [1 - 9] when a number is picked the spot is marked X or O depending on the player that made the move. **Win** occurs when a player marks 3 grids either vertically, horizontally or diagonally first. Otherwise the game will be a **draw** if no spot are marked either way(verically, horizontally or diagonally) and all nine spots are marked.
+
+![game_screenshot](./images/board-1.png)
 
 ## Built With
 
