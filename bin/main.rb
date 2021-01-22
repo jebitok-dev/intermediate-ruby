@@ -1,6 +1,6 @@
 # !/usr/bin/env ruby
 
-# rubocop:disable Layout/EmptyLineAfterGuardClause
+# rubocop:enable Layout/TrailingBlankLines
 
 require 'colorize'
 
@@ -37,4 +37,4 @@ until gameview.draw?
   break if gameview.winner?
 end
 
-# rubocop:enable Layout/EmptyLineAfterGuardClause
+# rubocop:enable Layout/TrailingBlankLines
