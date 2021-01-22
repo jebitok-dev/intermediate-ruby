@@ -1,24 +1,39 @@
-#!/usr/bin/env ruby
+# !/usr/bin/env ruby
 
+require 'colorize'
+
+require_relative '../lib/board'
+require_relative '../lib/validation'
+
+gameview = Board.new
+validation = Validate.new
 puts 'Welcome to the Tic Tac Toe game!'
-# create Players class initialized with name and symbol
-puts 'Enter your name player1: '
-player1 = gets.chomp
-puts "#{player1} takes symbol x"
+def player_move(player_name, validation, board)
+  puts board.display_board
+  puts "player #{player_name}, it's your turn!"
+  puts "player #{player_name}, select a number between 1 and 9"
+  selected_pos = gets.chomp
 
-puts 'Enter your name player2: '
-player2 = gets.chomp
-puts "#{player2} takes symbol o"
+  until validation.valid_move(selected_pos)
+    puts 'please enter a number between 1 to 9 and make sure it has not been selected'
+    selected_pos = gets.chomp
+  end
 
-puts '--------------'
-puts '| 1 | 2 | 3 |'
-puts '--------------'
-puts '| 4 | 5 | 6 |'
-puts '--------------'
-puts '| 7 | 8 | 9 |'
+  validation.update_selected_move(selected_pos)
 
-# Show players conditions (can't pick already picked number or invalid number
-# (not within 1-9))
+  board.update_board(selected_pos, player_name)
+end
+
+until gameview.draw?
+  player_move('X', validation, gameview)
+  puts 'player X has won'
+  break if gameview.winner?
+  puts 'Game is a draw'
+  break if gameview.draw?
+  player_move('O', validation, gameview)
+  puts 'player O has won'
+  break if gameview.winner?
+end
 puts "It is your turn #{player1}, Select your move: "
 # positionx = gets.chomp
 # Check if #{Player1} makes a valid move. If not, give a warning and repeat the
