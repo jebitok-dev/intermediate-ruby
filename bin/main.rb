@@ -25,9 +25,18 @@ end
 
 until gameview.draw?
   player_move('X', validation, gameview)
-  return p 'player X has won' if gameview.winner?
-  return p 'Game is a draw' if gameview.draw?
+  if gameview.winner?
+    puts 'player X has won'
+    return
+  end
+  if gameview.draw?
+    puts 'Game is a draw'
+    return
+  end
 
   player_move('O', validation, gameview)
-  return p 'player O has won' if gameview.winner?
+  if gameview.winner?
+    puts 'player O has won'
+    return
+  end
 end
