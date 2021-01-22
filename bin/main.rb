@@ -25,18 +25,11 @@ end
 
 until gameview.draw?
   player_move('X', validation, gameview)
-  if gameview.winner?
-    puts 'player X has won'
-    return
-  end
-  if gameview.draw?
-    puts 'Game is a draw'
-    return
-  end
-
+  puts 'player X has won'
+  break if gameview.winner?
+  puts 'Game is a draw'
+  break if gameview.draw?
   player_move('O', validation, gameview)
-  if gameview.winner?
-    puts 'player O has won'
-    return
-  end
+  puts 'player O has won'
+  break if gameview.winner?
 end
