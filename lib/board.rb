@@ -43,6 +43,3 @@ class Board
     true
   end
 end
-
-# rubocop:enable Style/Documentation
-# rubocop:enable Metrics/MethodLength
