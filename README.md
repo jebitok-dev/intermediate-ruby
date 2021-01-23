@@ -25,17 +25,6 @@
 
 ![game_screenshot](./images/board-1.png)
 
-## How to Play
-``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-1. To start the game, input any key
-2. Take a look at the Tic-Tac-Toe board with numbers [1 to 9]
-3. Input the number from 1 to 9 to get the position where you want to take.
-4. Selected position can't be chosen twice
-5. Taking turns to play the game with step 3 and 4
-6. If either player take 3 grids vertically, horizontally or diagonally first, the player is the **winner**
-7. If neither player can take 3 grids until the board is filled with players' symbols, the game is a **draw**
-8. If you want to play again, you start again and follow the same steps
-```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 <!-- ## Live Demo -->
 
 <!-- [Live Demo Link](https://livedemo.com) -->
@@ -49,6 +38,18 @@ To get a local copy up and running follow these simple steps to set-up and play 
 - $ cd bin/
 - $ ruby main.rb (to play the game)
 ```````````````````````````````````````````````````````````````````````````
+## How to Play
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+1. To start the game, input any key
+2. Take a look at the Tic-Tac-Toe board with numbers [1 to 9]
+3. Input the number from 1 to 9 to get the position where you want to take.
+4. Selected position can't be chosen twice
+5. Taking turns to play the game with step 3 and 4
+6. If either player take 3 grids vertically, horizontally or diagonally first, the player is the **winner**
+7. If neither player can take 3 grids until the board is filled with players' symbols, the game is a **draw**
+8. If you want to play again, you start again and follow the same steps
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
 ## How to Contribute
 
 To get a local copy up and running follow these simple example steps.
