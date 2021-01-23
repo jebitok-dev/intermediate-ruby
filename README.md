@@ -7,9 +7,20 @@
 
 ## ABOUT THE GAME
 
-The **TIC-TAC-TOE** game: is a 3 x 3 grid game that takes two player assigned symbol X and O. The players take turns playing by choosing any number between [1 - 9] when a number is picked the spot is marked X or O depending on the player that made the move. **Win** occurs when a player marks 3 grids either vertically, horizontally or diagonally first. Otherwise the game will be a **draw** if no spot are marked either way(verically, horizontally or diagonally) and all nine spots are marked.
+> The **TIC-TAC-TOE** game: is a 3 x 3 grid game that takes two player assigned symbol X and O. The players take turns playing by choosing any number between [1 - 9] when a number is picked the spot is marked X or O depending on the player that made the move. **Win** occurs when a player marks 3 grids either vertically, horizontally or diagonally first. Otherwise the game will be a **draw** if no spot are marked either way(verically, horizontally or diagonally) and all nine spots are marked.
 
 ![game_screenshot](./images/board-1.png)
+
+## How to Play
+
+1. To start the game, input any key
+2. Take a look at the Tic-Tac-Toe board with numbers [1 to 9]
+3. Input the number from 1 to 9 to get the position where you want to take.
+4. Selected position can't be chosen twice
+5. Taking turns to play the game with step 3 and 4
+6. If either player take 3 grids vertically, horizontally or diagonally first, the player is the **winner**
+7. If neither player can take 3 grids until the board is filled with players' symbols, the game is a **draw**
+8. If you want to play again, you start again and follow the same steps
 
 ## Built With
 
