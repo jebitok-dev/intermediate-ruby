@@ -43,16 +43,26 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps to set-up and play the game.
+``````````````````````````````````````````````````````````````````````````
+- $ git clone https://github.com/jebitok-dev/intermediate-ruby.git
+- $ git checkout develop
+- $ cd bin/
+- $ ruby main.rb (to play the game)
+```````````````````````````````````````````````````````````````````````````
+## How to Contribute
 
+To get a local copy up and running follow these simple example steps.
+```````````````````````````````````````````````````````````````````````````
 - Fork the repository
-- git clone https://github.com/jebitok-dev/intermediate-ruby.git
+- git clone https://github.com/user-name/intermediate-ruby.git
 - git checkout develop
 - git checkout -b branch name
 - git remote add upstream https://github.com/jebitok-dev/intermediate-ruby/
 - git pull upstream develop
 - git commit -m "commit message"
 - git push -u origin HEAD
+```````````````````````````````````````````````````````````````````````````
 
 <!-- ### Prerequisites
 
