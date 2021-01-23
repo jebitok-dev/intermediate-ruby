@@ -4,7 +4,14 @@
 
 > Ruby is an OOP language and nearly everything in Ruby is an object. This project aims to implement the Tic-Tac-Toe game using OOP methods like classes, inheritance, scope, variables, attr_readers & attr_writers as well as the DRY principle and other ruby components like hashes, arrays and data types etc.
 
-### In this Project there are 3 main files
+## Built With
+
+- Ruby
+- Ruby-rubocop
+- Github
+- Gem
+
+## In this Project there are 3 main files
 
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````
 1. main.rb: This file is responsible for getting validated inputs from the user, outputting messages & board.
@@ -29,14 +36,6 @@
 7. If neither player can take 3 grids until the board is filled with players' symbols, the game is a **draw**
 8. If you want to play again, you start again and follow the same steps
 ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-## Built With
-
-- Ruby
-<!-- - Frameworks -->
-- Ruby-rubocop
-- Github
-- Gem
-
 <!-- ## Live Demo -->
 
 <!-- [Live Demo Link](https://livedemo.com) -->
