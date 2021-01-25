@@ -56,8 +56,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Ralph Oburu**
 
-- GitHub: @Ralph-1
-- Twitter: [NotRalph0] (https://twitter.com/NotRalph0)
+- GitHub: [Ralph-1](https://github.com/Ralph-1)
+- Twitter: [NotRalph0](https://twitter.com/NotRalph0)
 
 ## 🤝 Contributing
 
