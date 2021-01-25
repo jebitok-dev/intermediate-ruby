@@ -46,13 +46,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment -->
 
-## Author
+## Authors
 
 👤 **Author**
 
 - GitHub: [@Jebitok-dev](https://github.com/jebitok-dev)
 - Twitter: [@Jsebitok](https://twitter.com/jsebitok)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sharon-jebitok/)
+
+👤 **Ralph Oburu**
+
+- GitHub: @Ralph-1
+- Twitter: [NotRalph0] (https://twitter.com/NotRalph0)
 
 ## 🤝 Contributing
 
