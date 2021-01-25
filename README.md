@@ -34,6 +34,15 @@ To get a local copy up and running follow these simple example steps.
 - git commit -m "commit message"
 - git push -u origin HEAD
 
+### Testing
+
+To test the code, run `rspec` from root of the folder using terminal.
+
+> Rspec is used for the test.
+
+~~~bash
+$ gem install rspec
+~~~
 <!-- ### Prerequisites
 
 ### Setup
