@@ -4,6 +4,7 @@
 
 > For implementing OOP milestones(1-4).
 > Ruby is an OOP language and nearly everything in Ruby is an object. This project aims to implement the Tic-Tac-Toe game using OOP methods like classes, inheritance, scope, variables, attr_readers & attr_writers as well as the DRY principle and other ruby components like hashes, arrays and data types etc.
+> Run ruby blocks code testing using **Rspec** - describe, .to and it keywords.
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
@@ -14,6 +15,7 @@
 - Ruby-rubocop
 - Github
 - Gem
+- Rspec (Ruby Testing)
 
 <!-- ## Live Demo -->
 
