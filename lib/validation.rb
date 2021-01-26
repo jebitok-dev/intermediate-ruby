@@ -1,3 +1,5 @@
+require_relative '../lib/board'
+
 class Validate < Board
   def initialize
     @valid_move = %w[1 2 3 4 5 6 7 8 9]

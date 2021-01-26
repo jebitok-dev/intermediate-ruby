@@ -3,6 +3,7 @@
 ## Tic Tac Toe: Object Oriented Programming(OOP)
 
 > Ruby is an OOP language and nearly everything in Ruby is an object. This project aims to implement the Tic-Tac-Toe game using OOP methods like classes, inheritance, scope, variables, attr_readers & attr_writers as well as the DRY principle and other ruby components like hashes, arrays and data types etc.
+> Run ruby blocks code testing using **Rspec** - describe, .to and it keywords.
 
 ## Built With
 
@@ -10,6 +11,7 @@
 - Ruby-rubocop
 - Github
 - Gem
+- Rspec (Ruby Testing)
 
 ## In this Project there are 3 main files
 
@@ -64,6 +66,15 @@ To get a local copy up and running follow these simple example steps.
 - git push -u origin HEAD
 ```````````````````````````````````````````````````````````````````````````
 
+### Testing
+
+To test the code, run `rspec` from root of the folder using terminal.
+
+> Rspec is used for the test.
+
+~~~bash
+$ gem install rspec
+~~~
 <!-- ### Prerequisites
 
 ### Setup
@@ -76,13 +87,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment -->
 
-## Author
+## Authors
 
 👤 **Author**
 
 - GitHub: [@Jebitok-dev](https://github.com/jebitok-dev)
 - Twitter: [@Jsebitok](https://twitter.com/jsebitok)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sharon-jebitok/)
+
+👤 **Ralph Oburu**
+
+- GitHub: [Ralph-1](https://github.com/Ralph-1)
+- Twitter: [NotRalph0](https://twitter.com/NotRalph0)
 
 ## 🤝 Contributing
 
